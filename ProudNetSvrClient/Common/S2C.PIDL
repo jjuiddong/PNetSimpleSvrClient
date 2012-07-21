@@ -1,0 +1,6 @@
+global S2C 2000 // server-to-client RMI, Fist message ID = 2000
+{
+
+	ConsoleString( [in] Proud::String message );
+
+}

@@ -1,0 +1,10 @@
+
+global C2S 1000 // client-to-server RMI, First message ID = 1000
+{
+	// Example that send chatting message to server
+	// 서버로 채팅 메시지를 보내는 예제
+//	Chat([in] CStringW a,[in] int b,[in] float c, [in] MyClass d, [in] CFastArray<int> f, [in] CFastMap<int,float> g, [in] ByteArray block);
+
+	Message( [in] int msg );
+
+}
